@@ -2,6 +2,7 @@ body {
     height: 100%;
     margin: 0;
     font-family: sans-serif;
+    
 }
 .welcome{
     min-height:90vh; height:90vh; max-height:90vh;
@@ -36,6 +37,7 @@ h1 {
     box-shadow: 10px 10px 10px rgb(22, 22, 22);
 }
 #logo_nav{
+    margin-left: 10px;
     width: 70px;
     border-radius: 150px;
     box-shadow: 10px 10px 10px rgb(22, 22, 22);
@@ -45,31 +47,142 @@ h1 {
     font-family: consolas;
     font-size: 20px;
     margin: 0;
-    text-shadow: 10px 10px 10px rgb(22, 22, 22);
+    text-shadow: 5px 5px 5px rgb(22, 22, 22);
 }
 .nav{
-    top: 10px;
-    left: 10px;
+    padding-top: 10px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
    
 }
 .ul {
-    margin: 0;
+    margin: 0, ;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
-    font-family: consolas;
+    font-family: Montserrat;
+    font-weight: 800;
     font-size: 20px;
+    margin-right: 50px;
 }
-.list_item{
+.li{
+    list-style: none;
+    margin-right: 100px;
+    text-shadow: 5px 5px 10px rgb(22, 22, 22);
+}
+.a{
     color: rgb(253, 253, 253);
     text-decoration: none;
 }
+.projects{
+display: flex;
+justify-content: center;
+
+}
+.project-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.project-title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.project-status-lost{
+    color: rgb(255, 36, 36);
+    display: flex;
+    font-family: consolas;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+.project-status-finished {
+    color: rgb(13, 238, 50);
+    display: flex;
+    font-family: consolas;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 20px;
+}
+.project-status-working {
+    color: rgb(238, 223, 13);
+    display: flex;
+    font-family: consolas;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.project-status-workingB {
+    color: rgb(238, 223, 13);
+    display: flex;
+    font-family: consolas;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 20px;
+}
+.github{
+    color: rgb(253, 253, 253);
+}
+.project-link{
+    color: rgb(253, 253, 253);
+    font-family: consolas;
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    margin: 0;
+    margin-left: 2px;
+}
+.project-link-wrapper {
+    text-decoration: none;
+    background-color: #474747;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+}
+.project-actions{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.project-title{
+    color: rgb(253, 253, 253);
+    font-family: Montserrat;
+    font-size: 30px;
+    margin: 0;
+}
+.project-description{
+    color: rgb(253, 253, 253);
+    font-family: consolas;
+    font-size: 16px;
+    margin: 0;
+}
+.project-date {
+    display: flex;
+    color: rgb(14, 139, 255);
+    font-family: consolas;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 30px;
+}
 
 
 
+
+.li:hover{
+    border-bottom: 4px solid rgb(14, 139, 255);
+    transition: all 0.1s ease-in;
+}
 #logo:hover{
     box-shadow: 0 0 100px 20px rgb(14, 139, 255);
 }
