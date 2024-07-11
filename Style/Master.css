@@ -178,6 +178,26 @@ justify-content: center;
 
 
 
+.socials-p{
+    color: rgb(253, 253, 253);
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+}
+.socials-herf{
+    text-decoration: none;
+}
+.socials-warpper{
+   
+}
+.socials-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .li:hover{
     border-bottom: 4px solid rgb(14, 139, 255);
